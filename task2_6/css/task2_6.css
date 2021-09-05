@@ -1,0 +1,106 @@
+* {
+    margin: 3px auto;
+    font-size: 25px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#ReservationFlat {
+    border: 5px solid rgb(3, 51, 196);
+    max-width: 750px;
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+    width: 40%;
+    padding: 25px 30px;
+}
+
+#ReservationFlat .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    font-weight: bold;
+}
+
+#ReservationFlat .title::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+#ReservationFlat form .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+legend {
+    color: rgb(3, 51, 196);
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+div button {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 250px;
+    margin-left: 10px;
+}
+
+.form-group-first input {
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid black;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    object-position: 80% 100%;
+}
+
+.form-group-first-one input {
+    width: 200px;
+}
+
+.form-group-first label {
+    width: 150px;
+    display: inline-block;
+}
+
+div label .form-group-second {
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+
+div .form-group-second [type=radio] {
+    height: 18px;
+    width: 18px;
+    border: 1px solid rgb(59, 14, 185);
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 5px solid transparent;
+}
+
+div .form-group-second [type=checkbox] {
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+    border: 5px solid transparent;
+}
+
+#ReservationFlat form .form-group-third {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

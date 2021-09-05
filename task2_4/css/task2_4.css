@@ -1,0 +1,21 @@
+* {
+    margin: 0 auto;
+}
+
+#container {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 73px 125px 15px 500px;
+    font-family: Arial, Helvetica;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    background-color: rgb(50, 53, 221);
+    color: white;
+    border: 0px solid;
+    border-radius: 15px;
+    padding: 11px 26px 11px 29px;
+    font-size: 15px;
+    font-weight: bold;
+}

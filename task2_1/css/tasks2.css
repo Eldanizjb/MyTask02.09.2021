@@ -1,0 +1,67 @@
+* {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#main {
+    height: 300px;
+    padding-top: 50px;
+    background-image: url("../img/foferstForBanner.jpg");
+    background-position: bottom;
+    background-size: cover;
+}
+
+#main #banner {
+    padding-top: 250px;
+    padding-left: 40px;
+    padding-bottom: 0px;
+}
+
+#main #banner h1 a {
+    color: lightcyan;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#header {
+    margin: 0 auto;
+    background-color: rgba(42, 41, 41, 0.801);
+}
+
+#header ul {
+    text-align: left;
+    padding: 30px 25px
+}
+
+#header ul li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+#header ul li a {
+    text-decoration: none;
+    color: lightcyan;
+    text-transform: uppercase;
+}
+
+#body {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#body h1 {
+    text-indent: 50px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #505031;
+}
+
+#body p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-indent: 50px;
+    text-align: justify;
+    color: rgba(42, 41, 41, 0.801);
+    line-height: 1.6;
+}

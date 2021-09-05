@@ -1,0 +1,105 @@
+* {
+    margin: 0px auto;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#ReservationFlat {
+    border: 0px solid;
+    width: 750px;
+    margin-top: 10px;
+    display: block;
+    width: 40%;
+    padding: 25px 30px;
+}
+
+#ReservationFlat .title {
+    font-size: 35px;
+    font-weight: 500px;
+    position: relative;
+    font-weight: bold;
+}
+
+#ReservationFlat .title::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+p {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+input,
+label {
+    margin-top: 20px;
+}
+
+div .form-group {
+    display: inline-flex;
+}
+
+div .form-group-third {
+    display: flex;
+}
+
+.form-group label {
+    display: inline;
+    margin-left: 0px;
+    width: 280px;
+    padding-left: 0px;
+    margin-right: 0px;
+    font-weight: bold;
+}
+
+div .form-group .radio {
+    display: flex;
+}
+
+div .form-group-third .radio [type=radio] {
+    height: 18px;
+    width: 18px;
+    border: 1px solid rgb(92, 91, 93);
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 5px solid transparent;
+}
+
+div .form-group-third label {
+    width: 50px;
+    margin-left: 0px;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #1116c0;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../task2_7/css/task2_7.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="ReservationFlat">
+        <div class="title">Emergency Contact Form</div>
+        <p>Please fill out the form correctly</p>
+        <hr>
+        <form action="" target="_self" method="GET" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <div class="into">
+                    <input type="text" name="name" id="name" maxlength="20" size="6" autofocus>
+                    <input type="text" name="surname" id="surname" size="10"><br>
+                    <samp class="firstSpam">First Name</samp>
+                    <samp class="secondSpam" style="padding-left: 14px;">Last Name</samp>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <div class="into">
+                    <input type="email" name="email" id="email" size="28" placeholder="ex: myname@example.com" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <div class="into">
+                    <input type="text" name="area code" id="area code" maxlength="4" size="4" autofocus>
+                    <spam>-</spam>
+                    <input type="text" name="phone" id="phone" maxlength="11" size="10" autofocus><br>
+                    <samp class="phoneFirstSpam">Area Code</samp>
+                    <samp class="phoneSecondSpam" style="padding-left: 9px;">Phone Number</samp>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="adress">Address</label>
+                <div class="into">
+                    <input type="text" name="street" id="street" size="28"required><br>
+                    <samp class="phoneFirstSpam">Street Address</samp><br>
+                    <input type="text" name="street" id="street" size="28"required><br>
+                    <samp class="phoneFirstSpam">Street Address Line2</samp><br>
+                    <input type="text" name="city" id="city" size="14" autofocus>
+                    <input type="text" name="state" id="state" size="14" autofocus><br>
+                    <samp class="phoneFirstSpam">City</samp>
+                    <samp class="phoneSecondSpam" style="padding-left: 188px;"required>State / Province</samp><br>
+                    <input type="text" name="code" id="code" size="4">
+                    <select name="countries" id="countries" style="margin-left: 126px; background-color: rgb(168, 175, 168);"required>
+                        <option value="null" >Please Select</option>
+                        <option value="1">Azerbaijan</option>
+                        <option value="2">Turkey</option>
+                        <option value="3">Germany</option>
+                        <option value="4">Israel</option>
+                    </select><br>
+                    <samp class="addressFirstSpam">Postal / Zip Code</samp>
+                    <samp class="addressSecondSpam" style="padding-left: 43px;">Country</samp>
+                </div>
+            </div>
+            <div class="form-group-third">
+                <label for="relationship" style="font-weight: bold;">Relationship with<br>Patient:</label>
+                <div class="into">
+                    <div class="radio">
+                        <input type="radio" value="parent" name="relationship with" id="parent"checked>
+                        <label for="parent">parent</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" value="child" name="relationship with" id="child" checked><label for="child">child</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" value="sibiling" name="relationship with" id="sibiling" checked><label for="sibiling">sibiling</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" value="friend" name="relationship with" id="friend" checked><label for="friend">friend</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" value="other" name="relationship with" id="other" checked><input type="text" name="other" id="other" size="20" autofocus>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <button type="submit">Submit Form</button>
+            </div>
+        </form>
+    </div>
+    <br>
+    <br>
+    <div style="font-size: 30px;">
+        <a href="../task2_8/task2_8.html">Next Task8</a>
+    </div>
+</body>
+
+</html>

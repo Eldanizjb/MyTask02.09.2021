@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../task2_6/css/task2_6.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="ReservationFlat">
+        <div class="title">Reservation Request</div>
+        <form action="" target="_self" method="GET" enctype="multipart/form-data">
+            <fieldset>
+                <legend>General Information</legend>
+                <div class="form-group-first">
+                    <label for="arrivialDate">Arrivial date:</label>
+                    <input type="text" id="date" name="date" maxlength="10" autofocus><br>
+                </div>
+                <div class="form-group-first">
+                    <label for="nights">Nights:</label>
+                    <input type="text" id="nights" name="nights" maxlength="10" autofocus><br>
+                </div>
+                <div class="form-group-first">
+                    <label for="adults">Adults:</label>
+                    <input type="number" id="adults" name="adults" max="10" min="1" size="1" autofocus><br>
+                </div>
+                <div class="form-group-first">
+                    <label for="children">Children:</label>
+                    <input type="number" id="children" name="children" max="10" min="1" size="1" autofocus><br>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <div class="form-group-second">
+                    <label for="">Room type:</label>
+                    <input type="radio" value="standart" name="room type" id="standart" checked> <label for="standart">Standart</label>
+                    <input type="radio" value="business" name="room type" id="business" checked> <label for="business">Business</label>
+                    <input type="radio" value="suite" name="room type" id="suite" checked> <label for="suite">Suite</label>
+                </div>
+
+                <div class="form-group-second">
+                    <label for="">Bed type:</label>
+                    <input type="radio" value="king" name="bed type" id="king" checked> <label for="king">King</label>
+                    <input type="radio" value="double double" name="bed type" id="double double" checked> <label for="double double">Double Double</label>
+                </div>
+
+                <div class="form-group-second">
+                    <input type="checkbox" value="smoking" name="smoking" id="smoking" checked> <label for="smoking">Smoking</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-group-third">
+                    <label for="fname"> Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+                </div>
+                <div class="form-group-third">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="graeyaho@.com" required>
+                </div>
+                <div class="form-group-third">
+                    <label for="Phone">Phone:</label>
+                    <input type="text" name="phone" id="phone" placeholder="123-456-789" maxlength="11" required><br>
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                <button type="submit">Submit Reservation</button>
+                <button type="reset">Clear</button>
+            </div>
+        </form>
+    </div>
+    <br>
+    <br>
+    <div style="font-size: 30px;">
+        <a href="../task2_7/task2_7.html">Next Task7</a>
+    </div>
+</body>
+
+</html>
